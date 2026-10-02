@@ -10,7 +10,6 @@ class BankingSystem {
             System.out.println("Insufficient balance");
         }
     }
-
     public static void main(String[] args) {
         BankingSystem b = new BankingSystem();
 
