@@ -1,6 +1,5 @@
 // Use throws and handle exception in main//
 class BankApplication {
-
     static void process() throws Exception {
         throw new Exception("Transaction failed");
     }
