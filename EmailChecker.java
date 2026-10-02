@@ -1,7 +1,5 @@
 // Check if email contains "@gmail.com"
-
 import java.util.Scanner;
-
 class EmailChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
