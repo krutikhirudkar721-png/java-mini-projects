@@ -9,7 +9,6 @@ class ATMWithdrawal {
 
         if(withdraw > balance)
             throw new ArithmeticException("Insufficient Balance");
-
         balance -= withdraw;
         System.out.println("Remaining balance: " + balance);
     }
